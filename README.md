@@ -1,24 +1,13 @@
-# ⚡ AsyncLab
+# CP Async C#
+## Participantes do Grupo
+- Ricardo Ramos Vergani RM550166
+- Arthur Baldissera RM550219
 
-## 🧪 Laboratório Async
-
-### 🎯 Objetivo
-Analisar o programa e tornar a sua execução **assíncrona**.
-
-### 📝 Atividades
-- 🔍 Identificar pontos do programa que podem ser transformados em chamadas assíncronas;  
-- ⏱️ Observar o impacto no tempo de execução;  
-
-### 📦 Entrega
-- 📌 A entrega deve ser feita através de um **fork** deste repositório.  
-- ✍️ No arquivo `README.md` do fork, devem constar:  
-  - 👥 **Nomes dos membros do grupo**;  
-  - 🛠️ **Descrição das modificações realizadas** para tornar o programa assíncrono;  
-  - 📊 Observações sobre os **impactos observados no tempo de execução**.  
-
-### 🌐 Repositório
-[https://github.com/profvinicius84/AsyncLab](https://github.com/profvinicius84/AsyncLab)
-
----
-
-👨‍🏫 © 2025 | Professor Vinícius Costa Santos
+## Mudancas realizadas: 
+- Uso do Await inves de Response
+- Funcoes Asincronas
+- Versao Assincrona do File.ReadAllLines
+- Loops Assincronos (Agora permitindo a utilizacao do Await dentro deles)
+- Hash por Municipio com uso de TaskWHenAll e Task.Run para paralelizacao
+- Versoes assincronas de escrita de arquivos
+- Logica completa com Await
